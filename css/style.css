@@ -1,0 +1,233 @@
+/* 
+Pacific blue 11AAB8
+oxford blue 131B2E
+white FEFFFF
+Dark Sienna 2A0800
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h3{
+    font-family: 'Raleway';
+}
+h4{
+    font-family: 'Raleway';
+}
+
+.header{
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 10px;
+    
+
+}
+header ul{
+    list-style: none;
+    display:flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+a{
+        text-decoration: none;
+        font-family: 'Raleway';
+        font-weight: bold;
+        font-size: 20px;
+        color: black;              
+}
+   
+li{
+        display: inline-block;
+        margin-right: 30px;
+}
+
+.elementos__principales{
+    border-top: 10px solid #131B2E;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #11AAB8;
+}
+.ejercicios{
+    margin: 30px 30px;
+    background-color: #131B2E;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+    font-family: 'Raleway';
+    display: inline-block;
+    align-items: center;
+    
+}
+
+.pressBanca__video{
+    align-items: center;
+    justify-content: center;
+}
+
+.contenedor__temaPrincipal{
+    display: block;
+    width: 300px;
+    background-color: white;
+    font-family: 'Raleway';
+    font-weight: bold;
+    margin: 30px 30px;
+    border: solid;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 450px;
+    flex-wrap: wrap;
+}
+
+.creatina__img{
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    
+}
+.consumo__frutas{
+    position: relative;
+    background-image: url(../assets/frutas.jpg);
+    background-position: center;
+    background-size: cover;
+    margin: 30px 30px;
+    width: 300px;
+    color: black;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: solid black;
+    font-family: 'Raleway';
+}
+
+p{
+    font-family: 'Raleway';
+
+}
+
+footer{
+    background-color:#131B2E;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+    flex-wrap: wrap;
+}
+
+ .logo__redes{
+    display: flex;
+    height: 60px;
+    width: 60px;
+    border-radius: 5px;
+ }
+ .redes{
+     display: flex;
+     align-items: center;
+ }
+
+ .div__img{
+     padding-right: 20px;
+     
+ }
+
+ .icono_ayuda{
+     width: 70px;
+     height: 70px;
+ }
+ .final__ayuda{
+     display: block;
+     text-align: center;
+     justify-content: center;
+ }
+
+ .ec__logo{
+    width: 75px;
+    height: 70px;
+    
+ }
+
+ .final__centro{
+    display: inline-block;
+    text-align: center;
+        
+ }
+
+.menu__final{
+    list-style: none;
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+    
+}
+
+.lista__final{
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+}
+
+.formulario__contacto{
+    border: black 2px solid;
+    padding: 5px 10px;
+    width: 200px;
+    font-family: 'Raleway';
+    background-color: white;
+    margin: 20px 0px;
+    border-radius: 5px;
+}
+
+.main__contacto{
+    border-top: solid 10px #131B2E;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #11AAB8;
+    
+}
+
+.main__nosotros{
+    display: grid;
+    grid-template-rows: 1pr 1pr 1pr;
+    grid-template-columns: 1pr 1pr;
+    background-color: #11AAB8;
+    grid-template-areas: "quienesSomos quienesSomos"
+                        "lider lider"
+                        "mision vision";
+    height: 100%;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding: 10px 10px ;
+    justify-content: center;
+    
+}
+.quienesSomos{
+    grid-area: quienesSomos;
+    border: 2px black solid;
+    width: 300px;
+    padding: 10px;
+    }
+    
+.titulo_quienesSomos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mision{
+    grid-area: mision;
+    border: 1px black solid;
+}
+.vision{
+    grid-area: vision;
+    border: 1px black solid;
+}
