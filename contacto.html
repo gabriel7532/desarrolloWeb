@@ -8,8 +8,9 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/entrenamientoconsciente_.png" alt="portada">
+    <div id="grilla">
+        <header class="header">
+            <img class="logo_header"  src="./assets/entrenamientoconsciente_.png" alt="portada">
         <nav>
             <ul class="lista">
                 <li> <a href="./index.html">Inicio</a></li>
@@ -20,38 +21,42 @@
             </ul>
         </nav>
     </header>
-    <main class="main__contacto">
-        <form class="formulario__contacto" action="#" method="get">
-            <div>
-                <label for="userName">Nombre y apellido</label>
-            </div>
-            <input type="text" name="user-info" id="userName" >
-            <div>
-            <br>
-            <label for="useremail">Correo electronico</label>
+    <main class="main">
+        <div class="main_contacto">
+            <form class="formulario__contacto" action="#" method="get">
+                <section class="relleno_formulario">
+                    <div>
+                        <label class="label__datos" for="userName">Nombre y apellido</label>
+                    </div>
+                    <input class="campos" type="text" name="user-info" id="userName" >
+                    <div>
+                        <br>
+                        <label class="label__datos" for="useremail">Correo electronico</label>
+                    </div>
+                    <input class="campos" type="text" name="user-info" id="usere-mail">
+                    <div>
+                        <br>
+                        <label for="userHelp">Mensaje</label>
+                    </div>
+                    <input class="campos" type="text" name="help" id="userHelp">
+                    <br><br>
+                    <div>
+                        <input class="boton__enviar" type="submit" value="Enviar">
+                        <input class="boton__reset" type="reset" value="Reset">
+                        <input class="boton_btn" type="button" value="btn">
+                    </div>
+                </section>
+                
+            </form>
         </div>
-        <input type="text" name="user-info" id="usere-mail">
-        <div>
-            <br>
-            <label for="userHelp">Inconformidad o sugerencia</label>
-        </div>
-        <input type="text" name="help" id="userHelp">
-        <br><br>
-        <div>
-            <input class="boton__enviar" type="submit" value="Enviar">
-            <input class="boton__reset" type="reset" value="Reset">
-            <input class="boton_btn" type="button" value="btn">
-        </div>
-        
-        </form>
-</main>
-    <footer>
+        </main>
+    <footer class="footer">
         <section class="redes">
             <div class="div__img">
                 <img class="logo__redes" src="./assets/inta.png" alt="Instagram logo">
             </div>
             <div class="div__img">
-                 <img class="logo__redes" src="./assets/face.png" alt="Facebook logo">       
+                <img class="logo__redes" src="./assets/face.png" alt="Facebook logo">       
             </div>
             <div class="div__img">
                 <img class="logo__redes" src="./assets/twitter.png" alt="Twitter logo">
@@ -70,11 +75,12 @@
             </nav>
         </section>
         <section class="final__ayuda">
-                <input type="text" name="ayuda" id="help" placeholder="Ayuda">  
-                <div>
-                    <img class="icono_ayuda" src="./assets/ayuda_canva.png" alt="ayuda icono">
-                </div>      
-            </section>
+            <input type="text" name="ayuda" id="help" placeholder="Ayuda">  
+            <div>
+                <img class="icono_ayuda" src="./assets/ayuda_canva.png" alt="ayuda icono">
+            </div>      
+        </section>
     </footer>
+</div>
 </body>
 </html>

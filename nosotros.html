@@ -8,8 +8,9 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <img src="./assets/entrenamientoconsciente_.png" alt="portada">
+    <div id="grilla">
+        <header class="header">
+            <img class="logo_header" src="./assets/entrenamientoconsciente_.png" alt="portada">
         <nav>
             <ul class="lista">
                 <li> <a href="./index.html">Inicio</a></li>
@@ -22,17 +23,17 @@
 
 
     </header>
-    <main class="main__nosotros">
-        <article class="quienesSomos" > <h3 class="titulo_quienesSomos">Quienes somos</h3>   
-            <h4>Somos una empresa que brindamos asesoria y conocmiento a aquellas personas que quieren comenzar en el mundo del ejercicio y el entrenamiento, ya sea para mejorar su rendimiento, su aspecto físico o su salud.</h4>
-        </article>
-        <article class="mision">
-            <h3>Misión</h3>
-            <h4>Queremos ser la opción para las personas que quieren comenzar a hacer ejeercicio, mejorar su rendimiento por medio de entrenamiento y practicar ejercicio y/o actividad física por salud. </h4>
-        </article>
-        <article class="vision">vision</article>
+    <main class="main">
+        <div class="main__nosotros">
+            <img class="imagen_nosotros" src="./assets/img_nosotros.jpg" alt="img_nosotros">
+            <article class="quienesSomos" > 
+                <h3 class="titulo_quienesSomos">Quienes somos</h3>   
+                <br>
+                <h4 class="h4_quienesSomos">Somos una empresa que brindamos asesoria y conocimiento a aquellas personas que quieren comenzar en el mundo del ejercicio y el entrenamiento, ya sea para mejorar su rendimiento, su aspecto físico o su salud.</h4>
+            </article>
+        </div>
     </main>
-    <footer>
+    <footer class="footer">
         <section class="redes">
             <div class="div__img">
                 <img class="logo__redes" src="./assets/inta.png" alt="Instagram logo">
@@ -57,11 +58,12 @@
             </nav>
         </section>
         <section class="final__ayuda">
-                <input type="text" name="ayuda" id="help" placeholder="Ayuda">  
-                <div>
-                    <img class="icono_ayuda" src="./assets/ayuda_canva.png" alt="ayuda icono">
-                </div>      
-            </section>
+            <input type="text" name="ayuda" id="help" placeholder="Ayuda">  
+            <div>
+                <img class="icono_ayuda" src="./assets/ayuda_canva.png" alt="ayuda icono">
+            </div>      
+        </section>
     </footer>
+</div>
 </body>
 </html>
