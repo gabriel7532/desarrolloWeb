@@ -12,8 +12,7 @@ Dark Sienna 2A0800
     padding: 0;
     box-sizing: border-box;
 }
-<<<<<<< Updated upstream
-=======
+
 /*Grilla para todos los archivos HTML*/
 
 #grilla{
@@ -41,7 +40,6 @@ Dark Sienna 2A0800
 
 /*header y footer para todo el proyecto*/
 
->>>>>>> Stashed changes
 h3{
     font-family: 'Raleway';
 }
@@ -261,8 +259,6 @@ footer{
     grid-area: vision;
     border: 1px black solid;
 }
-<<<<<<< Updated upstream
-=======
 
 
 @media  screen and (min-width: 769px){
@@ -285,9 +281,4 @@ footer{
           width: 100%;
         }
     }
-<<<<<<< Updated upstream
 }
->>>>>>> Stashed changes
-=======
-}
->>>>>>> Stashed changes
