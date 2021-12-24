@@ -5,32 +5,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
     <div id="grilla">
          <header class="header">
-            <img class="logo_header" src="./assets/entrenamientoconsciente_.png" alt="portada">
+            <img class="header_logo" src="./assets/entrenamientoconsciente_.png" alt="portada">
             <nav>
-                <ul class="lista"> 
-                    <li> <a href="#">Inicio</a></li>
-                    <li> <a href="./nosotros.html">Nosotros</a></li>
-                    <li> <a href="./entrenamiento.html">Entrenamiento</a></li>
-                    <li> <a href="./temasdeInteres.html">Temas de Interés</a></li>
-                    <li> <a href="./contacto.html">Contacto</a></li>
+                <ul class="header_ul"> 
+                    <li class="header_li"> <a class="header_li_a" href="#">Inicio</a></li>
+                    <li class="header_li"> <a class="header_li_a" href="./modelos/nosotros.html">Nosotros</a></li>
+                    <li class="header_li"> <a class="header_li_a" href="./modelos/entrenamiento.html">Entrenamiento</a></li>
+                    <li class="header_li"> <a class="header_li_a" href="./modelos/miCuenta.html">Mi Cuenta</a></li>
+                    <li class="header_li"> <a class="header_li_a" href="./modelos/contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </header>
         <main class="main">
             <section class="elementos__principales">
-                <div class="ejercicios">
-                    <h2>Ejercicios</h2>
+                <div class="ejercicios">                   
                     <h3>Press Banca</h3>
                     <br>
                     <video class="pressBanca__video" src="./assets/pressBancaWeb.mp4" controls></video>
                 </div>
                 <div class="contenedor__temaPrincipal">
-                    <h2>Temas de interés</h2>
                     <h3>Creatina
                     </h3>
                     
@@ -42,7 +41,6 @@
                 </div>
             </div>
             <div class="consumo__frutas">
-                <h2>Alimentación</h2>
                 <h3>Consumo de frutas</h3>
                 <p>El consumo de frutas es indispensable dentro de la nutrición.
         Aporta una considerable cantidad tanto de micronutrientes como de fibra soluble y no soluble, lo que ayuda a regular las funciones de nuestro cuerpo.
@@ -54,33 +52,33 @@
         </main>
     
     <footer class="footer">
-        <section class="redes">
-            <div class="div__img">
-                <img class="logo__redes" src="./assets/inta.png" alt="Instagram logo">
+        <section class="footer_redes">
+            <div class="footer_redes_img">
+                <img class="footer_redes_img_logos" src="./assets/inta.png" alt="Instagram logo">
             </div>
-            <div class="div__img">
-                 <img class="logo__redes" src="./assets/face.png" alt="Facebook logo">       
+            <div class="footer_redes_img">
+                 <img class="footer_redes_img_logos" src="./assets/face.png" alt="Facebook logo">       
                 </div>
-                <div class="div__img">
-                    <img class="logo__redes" src="./assets/twitter.png" alt="Twitter logo">
+                <div class="footer_redes_img">
+                    <img class="footer_redes_img_logos" src="./assets/twitter.png" alt="Twitter logo">
             </div>
         </section>
-        <section class="final__centro">
-            <img class="ec__logo" src="./assets/logo-fondo-transparente1.png" alt="logo entrenamientoconsciente">
+        <section class="footer_centro">
+            <img class="footer_centro_logo" src="./assets/logo-fondo-transparente1.png" alt="logo entrenamientoconsciente">
             <nav>
-                <ul>
-                    <li class="lista__final">  <a class="menu__final" href="#">Inicio</a></li>
-                    <li class="lista__final">  <a class="menu__final" href="./nosotros.html">Nosotros</a></li>
-                    <li class="lista__final">  <a class="menu__final" href="./entrenamiento.html">Entrenamiento</a></li>
-                    <li class="lista__final">  <a class="menu__final" href="./temasdeInteres.html">Temas de Interés</a></li>
-                    <li class="lista__final">  <a class="menu__final" href="./contacto.html">Contacto</a></li>
+                <ul class="footer_ul">
+                    <li class="footer_ul_li">  <a class="footer_ul_li_a" href="#">Inicio</a></li>
+                    <li class="footer_ul_li">  <a class="footer_ul_li_a" href="./modelos/nosotros.html">Nosotros</a></li>
+                    <li class="footer_ul_li">  <a class="footer_ul_li_a" href="./entrenamiento.html">Entrenamiento</a></li>
+                    <li class="footer_ul_li">  <a class="footer_ul_li_a" href="./modelos/miCuenta.html">Mi Cuenta</a></li>
+                    <li class="footer_ul_li">  <a class="footer_ul_li_a" href="./contacto.html">Contacto</a></li>
                 </ul>
             </nav>
         </section>
-        <section class="final__ayuda">
+        <section class="footer_ayuda">
             <input type="text" name="ayuda" id="help" placeholder="Ayuda">  
             <div>
-                <img class="icono_ayuda" src="./assets/ayuda_canva.png" alt="ayuda icono">
+                <img class="footer_ayuda_icono" src="./assets/ayuda_canva.png" alt="ayuda icono">
             </div>      
         </section>
     </footer>

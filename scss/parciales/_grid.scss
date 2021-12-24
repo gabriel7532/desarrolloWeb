@@ -1,0 +1,24 @@
+#grilla{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1pr auto;
+
+    grid-template-areas: "header header"
+                        "main main"
+                        "footer footer";
+}
+
+.header{
+    grid-area: header;
+
+}
+
+.main{
+    grid-area: main;
+    background: rgb(17,170,184);
+    background: linear-gradient(90deg, rgba(17,170,184,1) 16%, rgba(67,139,174,1) 49%, rgba(9,121,110,1) 100%);
+}
+
+.footer{
+    grid-area: footer;
+}

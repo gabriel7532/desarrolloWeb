@@ -58,7 +58,7 @@ h4{
     
 
 }
-header ul{
+.header_ul{
     list-style: none;
     display:flex;
     align-items: center;
@@ -66,7 +66,7 @@ header ul{
     flex-wrap: wrap;
 }
 
-a{
+.header_li_a{
         text-decoration: none;
         font-family: 'Raleway';
         font-weight: bold;
@@ -74,7 +74,7 @@ a{
         color: black;              
 }
    
-li{
+.header_li{
         display: inline-block;
         margin-right: 30px;
 }
@@ -89,57 +89,64 @@ footer{
     flex-wrap: wrap;
 }
 
- .logo__redes{
+ .footer_redes_img_logos{
     display: flex;
     height: 60px;
     width: 60px;
     border-radius: 5px;
  }
 
- .redes{
+ .footer_redes{
      display: flex;
      align-items: center;
  }
 
- .div__img{
+ .footer_redes_img{
      padding-right: 20px;
      
  }
 
- .icono_ayuda{
+ .footer_ayuda_icono{
      width: 70px;
      height: 70px;
  }
- .final__ayuda{
+ .footer_ayuda{
      display: block;
      text-align: center;
      justify-content: center;
  }
 
- .ec__logo{
+ .footer_centro_logo{
     width: 75px;
     height: 70px;
     
  }
 
- .final__centro{
+ .footer_centro{
     display: inline-block;
     text-align: center;
         
  }
 
-.menu__final{
+.footer_ul_li_a{
     list-style: none;
     color: white;
     display: inline-block;
     font-size: 15px;
+    font-family: 'Raleway';
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-weight: bold;
     
 }
-
-.lista__final{
+.footer_ul{
+    padding: 0px;
+}
+.footer_ul_li{
     text-decoration: none;
     display: block;
     margin: 0px;
+    
 }
 
 /*main index*/
@@ -182,11 +189,14 @@ footer{
 }
 
 .creatina__img{
-    width: 100%;
+    display: flex;
+    width: 90%;
+    height: 160px;
     padding: 1rem;
-    margin-bottom: 1rem;
-    align-items: flex-end;
+    margin-left: 20px;
     flex-wrap: wrap;
+    
+
     
 }
 .consumo__frutas{
@@ -286,7 +296,11 @@ p{
     .pressBanca__video{
         width: 250px;
     }
-    .logo_header{
+    .creatina__img{
+        height: 130px;
+        width: 180px;
+    }
+    .header_logo{
         width: 200px;
     }
     .header,.main,.footer{
@@ -297,12 +311,13 @@ p{
         align-content: center;
         justify-content: center;
     }
-    .lista{
+    .header_ul{
         display: block;
         text-align: center;
         margin: 0px;
+        padding: 0px;
     }
-    li{
+    .header_li{
         display: block;
         margin: 0px;
     }
@@ -310,26 +325,24 @@ p{
     .footer{
         display: block;
         padding: 0px;
-        
-        
     }
-    .final__centro{
-        align-items: center;
-    }
-    .redes{
+   
+    .footer_redes{
         margin-top: 10px;
         justify-content: center;
     }
-    .final__centro{
+    .footer_centro{
         margin-left: auto;
         margin-right: auto;
         display: block;
         margin-top: 15px;
+        align-items: center;
     }
-    .final__ayuda{
+    .footer_ayuda{
         margin-top: 10px;
     }
-    .logo__redes{
+    
+    .footer_redes_img_logos{
         height: 40px;
         width: 40px;
     }
