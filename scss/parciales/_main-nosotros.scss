@@ -1,0 +1,31 @@
+@import "./media-queries";
+
+.main__nosotros{
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 6px ;
+    border-style: double;
+    margin: 100px 10%;
+    border-radius: 5px;
+    background-color:#2f6b71;   
+        @include tablet{
+            display: inline-block;
+            margin: 10px;
+            padding: 10px;
+        }
+    
+}
+
+.h4_quienesSomos{
+    font-weight: lighter;
+}
+
+.imagen_nosotros{
+    border-radius: 5px;
+        @include desktop{
+            font-size: 25px;
+        }
+}

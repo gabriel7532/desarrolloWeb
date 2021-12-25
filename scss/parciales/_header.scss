@@ -1,3 +1,5 @@
+@import "./media-queries";
+
 .header{
     background-color: white;
     align-items: center;
@@ -5,6 +7,9 @@
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 20px 10px;
+        @include tablet{
+        flex-wrap: wrap;
+    }
     
     &_ul{
         list-style: none;
@@ -12,11 +17,21 @@
         align-items: center;
         margin-right: 50px;
         flex-wrap: wrap;
+            @include tablet{
+            display: block;
+            text-align: center;
+            margin: 0px;
+            padding: 0px;;
+        }
     }
 
     &_li{
         display: inline-block;
         margin-right: 30px;
+            @include tablet{
+            display: block;
+            margin: 0px;
+        }
 
         &_a{
             text-decoration: none;

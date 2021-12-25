@@ -1,0 +1,82 @@
+@import "./media-queries";
+
+.main_elementos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+        @include desktop{
+            animation-duration: 3s;
+            animation-name: slidein;
+            animation-direction: alternate;
+      }
+      @keyframes slidein {
+        from {
+          margin-left: 50%;
+          width: 100%;
+        }
+      
+        to {
+          margin-left: 0%;
+          width: 100%;
+        }
+        }
+    
+        &_ejercicios{
+            margin: 30px 30px;
+            background-color: #131B2E;
+            color: white;
+            border-radius: 5px;
+            padding: 10px 10px;
+            font-family: 'Raleway';
+            display: inline-block;
+            align-items: center;
+        }
+        .pressBanca_video{            
+                padding: 10px;
+                align-items: center;
+                justify-content: center;
+            
+        }
+
+        .main_contenedor{
+            display: block;
+            width: 300px;
+            background-color: white;
+            font-family: 'Raleway';
+            font-weight: bold;
+            margin: 30px 30px;
+            border: solid;
+            border-radius: 5px;
+            padding: 5px 10px;
+            height: 450px;
+            flex-wrap: wrap;
+        }
+
+        .creatina__img{
+            display: flex;
+            width: 90%;
+            height: 160px;
+            padding: 1rem;
+            margin-left: 20px;
+            flex-wrap: wrap;
+        }
+
+        .consumo__frutas{
+            position: relative;
+            background-image: url(../assets/frutas.jpg);
+            background-position: center;
+            background-size: cover;
+            margin: 30px 30px;
+            width: 300px;
+            color: black;
+            font-weight: bold;
+            border-radius: 5px;
+            padding: 5px 10px;
+            border: solid black;
+            font-family: 'Raleway';
+        }
+        p{
+            font-family: $fuente;
+        }
+
+}
