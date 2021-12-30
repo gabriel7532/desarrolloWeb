@@ -1,0 +1,32 @@
+@import "./media-queries";
+@import "./vars";
+
+.formulario__contacto{
+    border: black 2px solid;
+    width: 500px;
+    padding: 5px 10px;
+    font-family: 'Raleway';
+    margin: 20px 0px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+        @include tablet{
+            margin: 10px;
+        }
+}
+
+.campos{
+    background: #2f6b71;
+    width: 100%;
+    border: inset #2f6b71 5px;
+}
+.main_contacto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_boton__contacto{
+    @extend .main_boton__inscribete;
+    font-weight: lighter;
+}

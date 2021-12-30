@@ -1,4 +1,10 @@
 @import "./media-queries";
+@import "./vars";
+
+$main: map-get($colores-fondo, main);
+main{
+    background-color: $main;
+}
 
 .main_elementos{
     display: flex;
@@ -31,10 +37,14 @@
             display: inline-block;
             align-items: center;
         }
-        .pressBanca_video{            
+        .pressBanca__video{            
                 padding: 10px;
                 align-items: center;
                 justify-content: center;
+
+                @include tablet{
+                    width: 250px;
+                }
             
         }
 
@@ -77,6 +87,24 @@
         }
         p{
             font-family: $fuente;
-        }
+      
+            }
+
+}
+.main_boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &__inscribete{
+        margin: 10px;
+        border-radius: 5px;
+        padding: 5px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        background-color:black;
+        color: white;
+    
+    }
 
 }

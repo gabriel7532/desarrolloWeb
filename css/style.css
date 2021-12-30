@@ -216,6 +216,22 @@ p{
 
 }
 
+.main_boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main_boton__inscribete{
+    margin: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    background-color:black;
+    color: white;
+
+}
+
 /*main nosotros*/
 .main__nosotros{
     text-align: center;

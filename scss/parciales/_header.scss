@@ -1,4 +1,11 @@
 @import "./media-queries";
+@import "./vars";
+
+
+$header: map-get($colores-fondo , header);
+header{
+    background-color: $header;
+}
 
 .header{
     background-color: white;
@@ -9,6 +16,8 @@
     padding: 20px 10px;
         @include tablet{
         flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
     
     &_ul{

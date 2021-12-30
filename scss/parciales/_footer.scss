@@ -1,4 +1,11 @@
 @import "./media-queries";
+@import "./vars";
+
+$footer:map-get($colores-fondo , footer );
+footer{
+    background-color: $footer;
+}
+
 
 .footer{
     background-color:#131B2E;
@@ -78,6 +85,9 @@
         display: block;
         text-align: center;
         justify-content: center;
+            @include tablet {
+                margin-top: 10px;
+            }
 
         &_icono{
             width: 70px;

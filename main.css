@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+header {
+  background-color: white;
+}
+
 .header {
   background-color: white;
   -webkit-box-align: center;
@@ -26,6 +30,11 @@
   .header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -69,6 +78,10 @@
   font-weight: bold;
   font-size: 20px;
   color: black;
+}
+
+footer {
+  background-color: #131B2E;
 }
 
 .footer {
@@ -185,6 +198,12 @@
           justify-content: center;
 }
 
+@media screen and (max-width: 768px) {
+  .footer_ayuda {
+    margin-top: 10px;
+  }
+}
+
 .footer_ayuda_icono {
   width: 70px;
   height: 70px;
@@ -222,6 +241,10 @@
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
   grid-area: footer;
+}
+
+main {
+  background-color: linear-gradient(90deg, #11aab8 16%, #438bae 49%, #09796e 100%);
 }
 
 .main_elementos {
@@ -281,7 +304,7 @@
           align-items: center;
 }
 
-.main_elementos .pressBanca_video {
+.main_elementos .pressBanca__video {
   padding: 10px;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -289,6 +312,12 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .main_elementos .pressBanca__video {
+    width: 250px;
+  }
 }
 
 .main_elementos .main_contenedor {
@@ -335,5 +364,107 @@
 
 .main_elementos p {
   font-family: "Raleway";
+}
+
+.main_boton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_boton__inscribete, .main_boton__contacto {
+  margin: 10px;
+  border-radius: 5px;
+  padding: 5px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  background-color: black;
+  color: white;
+}
+
+.formulario__contacto {
+  border: black 2px solid;
+  width: 500px;
+  padding: 5px 10px;
+  font-family: 'Raleway';
+  margin: 20px 0px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .formulario__contacto {
+    margin: 10px;
+  }
+}
+
+.campos {
+  background: #2f6b71;
+  width: 100%;
+  border: inset #2f6b71 5px;
+}
+
+.main_contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main_boton__contacto {
+  font-weight: lighter;
+}
+
+.main__nosotros {
+  text-align: center;
+  font-size: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 6px;
+  border-style: double;
+  margin: 100px 10%;
+  border-radius: 5px;
+  background-color: #2f6b71;
+}
+
+@media screen and (max-width: 768px) {
+  .main__nosotros {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+  }
+}
+
+.h4_quienesSomos {
+  font-weight: lighter;
+}
+
+.imagen_nosotros {
+  border-radius: 5px;
+}
+
+@media screen and (min-width: 769px) {
+  .imagen_nosotros {
+    font-size: 25px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

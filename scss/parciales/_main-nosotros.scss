@@ -11,7 +11,8 @@
     margin: 100px 10%;
     border-radius: 5px;
     background-color:#2f6b71;   
-        @include tablet{
+        
+    @include tablet{
             display: inline-block;
             margin: 10px;
             padding: 10px;
