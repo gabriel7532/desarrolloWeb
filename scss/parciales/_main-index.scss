@@ -20,6 +20,9 @@ main{
         padding: 15px;
         border-radius: 20px;
         display: flex;
+        @include tablet{
+            width: 300px;
+        }
         
     }
        

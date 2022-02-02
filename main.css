@@ -148,7 +148,7 @@ footer {
 }
 
 .footer_redes_img {
-  padding-right: 20px;
+  margin-right: 20px;
 }
 
 .footer_redes_img_logos {
@@ -296,6 +296,12 @@ main {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .main_elementos_img {
+    width: 300px;
+  }
 }
 
 .main_elementos p {
@@ -446,6 +452,12 @@ main {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .imagen_nosotros {
+    width: 250px;
+  }
+}
+
 .titulo-enfoques {
   text-align: center;
 }
@@ -501,6 +513,10 @@ main {
   width: 400px;
 }
 
+.parrafo_plan-centrado {
+  text-align: center;
+}
+
 .img_plan {
   width: 400px;
   border-radius: 5px;
@@ -538,6 +554,8 @@ main {
   text-align: center;
   -ms-flex-line-pack: center;
       align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .miCuenta_datos {
@@ -557,6 +575,9 @@ main {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
 }
 
 .miCuenta_botones {
@@ -578,5 +599,11 @@ main {
 
 .miCuenta_calendario {
   text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .miCuenta_calendario-img {
+    width: 90%;
+  }
 }
 /*# sourceMappingURL=main.css.map */

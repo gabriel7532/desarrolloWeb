@@ -15,7 +15,10 @@
 
 .parrafo_plan{
     align-self: center;
-    width: 400px
+    width: 400px;
+    &-centrado{
+        text-align: center;
+    }
 }
 
 .img_plan{

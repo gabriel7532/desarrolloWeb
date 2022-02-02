@@ -29,6 +29,9 @@
         @include desktop{
             font-size: 25px;
         }
+        @include tablet{
+            width: 250px;
+        }
 }
 
 .titulo-enfoques{
