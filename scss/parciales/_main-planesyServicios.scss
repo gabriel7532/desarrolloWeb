@@ -1,0 +1,36 @@
+
+
+.personalizado_nosotros, .online_nosotros, .virtual_nosotros, .antropometria_nosotros{
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.titulo_plan{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.parrafo_plan{
+    align-self: center;
+    width: 400px
+}
+
+.img_plan{
+    width: 400px;
+    border-radius: 5px;
+}
+
+.plan_button-align{
+    text-align: center;
+}
+
+.plan_button{
+    background-color:#131B2E;
+    color: white;
+    margin: 5px;
+    padding: 2px;
+    border-radius: 4px;
+}

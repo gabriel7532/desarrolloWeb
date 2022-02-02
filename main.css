@@ -6,6 +6,26 @@
           box-sizing: border-box;
 }
 
+h2 {
+  font-family: 'Raleway';
+}
+
+h3 {
+  font-family: 'Raleway';
+}
+
+h4 {
+  font-family: 'Raleway';
+}
+
+h5 {
+  font-family: 'Raleway';
+}
+
+p {
+  font-family: 'Raleway';
+}
+
 header {
   background-color: white;
 }
@@ -85,7 +105,7 @@ footer {
 }
 
 .footer {
-  background-color: #131B2E;
+  background: color #131B2E;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -256,114 +276,72 @@ main {
           justify-content: space-evenly;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-}
-
-@media screen and (min-width: 769px) {
-  .main_elementos {
-    -webkit-animation-duration: 3s;
-            animation-duration: 3s;
-    -webkit-animation-name: slidein;
-            animation-name: slidein;
-    -webkit-animation-direction: alternate;
-            animation-direction: alternate;
-  }
-}
-
-@-webkit-keyframes slidein {
-  from {
-    margin-left: 50%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-@keyframes slidein {
-  from {
-    margin-left: 50%;
-    width: 100%;
-  }
-  to {
-    margin-left: 0%;
-    width: 100%;
-  }
-}
-
-.main_elementos_ejercicios {
-  margin: 30px 30px;
-  background-color: #131B2E;
-  color: white;
-  border-radius: 5px;
-  padding: 10px 10px;
-  font-family: 'Raleway';
-  display: inline-block;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.main_elementos .pressBanca__video {
-  padding: 10px;
+.main_elementos-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.main_elementos_img {
+  padding: 15px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.main_elementos p {
+  font-family: "Raleway";
+  text-align: center;
+}
+
+.frase1 {
+  font-weight: bold;
+  font-style: oblique;
+}
+
+.titulo_seccion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
-  .main_elementos .pressBanca__video {
-    width: 250px;
-  }
-}
-
-.main_elementos .main_contenedor {
-  display: block;
-  width: 300px;
-  background-color: white;
-  font-family: 'Raleway';
-  font-weight: bold;
-  margin: 30px 30px;
-  border: solid;
-  border-radius: 5px;
-  padding: 5px 10px;
-  height: 450px;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-.main_elementos .creatina__img {
+.plan {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 90%;
-  height: 160px;
-  padding: 1rem;
-  margin-left: 20px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
-.main_elementos .consumo__frutas {
-  position: relative;
-  background-image: url(../assets/frutas.jpg);
-  background-position: center;
-  background-size: cover;
-  margin: 30px 30px;
+.plan_personalizado, .plan_online, .plan_virtual {
+  text-align: center;
+  border: 1px;
+  border-style: solid;
+  border-color: #131B2E;
+  margin: 10px 0px;
   width: 300px;
-  color: black;
-  font-weight: bold;
-  border-radius: 5px;
-  padding: 5px 10px;
-  border: solid black;
-  font-family: 'Raleway';
 }
 
-.main_elementos p {
-  font-family: "Raleway";
+.plan-img {
+  margin: 20px;
+  border-radius: 5px;
+  width: 250px;
+  height: 180px;
 }
 
 .main_boton {
@@ -466,5 +444,139 @@ main {
   .imagen_nosotros {
     font-size: 25px;
   }
+}
+
+.titulo-enfoques {
+  text-align: center;
+}
+
+.enfoques {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.enfoques_grasayMasa, .enfoques_fisicoMental, .enfoques_natacion, .enfoques_prepFisica {
+  border: gray 2px solid;
+  margin: 10px 0px;
+  width: 200px;
+  text-align: center;
+}
+
+.accordion-item {
+  background: #11aab8;
+  background: -webkit-gradient(linear, left top, right top, color-stop(16%, #11aab8), color-stop(49%, #438bae), to(#09796e));
+  background: linear-gradient(90deg, #11aab8 16%, #438bae 49%, #09796e 100%);
+}
+
+.personalizado_nosotros, .online_nosotros, .virtual_nosotros, .antropometria_nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.titulo_plan {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.parrafo_plan {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 400px;
+}
+
+.img_plan {
+  width: 400px;
+  border-radius: 5px;
+}
+
+.plan_button-align {
+  text-align: center;
+}
+
+.plan_button {
+  background-color: #131B2E;
+  color: white;
+  margin: 5px;
+  padding: 2px;
+  border-radius: 4px;
+}
+
+.titulo_cuenta {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.mi_cuenta-foto {
+  border-radius: 50%;
+  width: 15rem;
+}
+
+.miCuenta_datosPersonales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  text-align: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.miCuenta_datos {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 300px;
+}
+
+.miCuenta_caracteristicas-plan {
+  background-color: #131B2E;
+  color: white;
+  padding: 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.miCuenta_botones {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.miCuenta_botones-espacio {
+  background-color: #131B2E;
+  color: white;
+  border-radius: 4px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.miCuenta_calendario {
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

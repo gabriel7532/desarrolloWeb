@@ -30,3 +30,27 @@
             font-size: 25px;
         }
 }
+
+.titulo-enfoques{
+    text-align: center;
+}
+
+.enfoques{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.enfoques_grasayMasa, .enfoques_fisicoMental, .enfoques_natacion, .enfoques_prepFisica{
+    border: gray 2px solid;
+    margin: 10px 0px;
+    width: 200px;
+    text-align: center;
+    
+}
+.accordion-item{
+    
+    background: rgb(17,170,184);
+    background: linear-gradient(90deg, rgba(17,170,184,1) 16%, rgba(67,139,174,1) 49%, rgba(9,121,110,1) 100%);
+}

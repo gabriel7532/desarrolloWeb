@@ -10,87 +10,63 @@ main{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-        @include desktop{
-            animation-duration: 3s;
-            animation-name: slidein;
-            animation-direction: alternate;
-      }
-      @keyframes slidein {
-        from {
-          margin-left: 50%;
-          width: 100%;
-        }
-      
-        to {
-          margin-left: 0%;
-          width: 100%;
-        }
-        }
-    
-        &_ejercicios{
-            margin: 30px 30px;
-            background-color: #131B2E;
-            color: white;
-            border-radius: 5px;
-            padding: 10px 10px;
-            font-family: 'Raleway';
-            display: inline-block;
-            align-items: center;
-        }
-        .pressBanca__video{            
-                padding: 10px;
-                align-items: center;
-                justify-content: center;
-
-                @include tablet{
-                    width: 250px;
-                }
-            
-        }
-
-        .main_contenedor{
-            display: block;
-            width: 300px;
-            background-color: white;
-            font-family: 'Raleway';
-            font-weight: bold;
-            margin: 30px 30px;
-            border: solid;
-            border-radius: 5px;
-            padding: 5px 10px;
-            height: 450px;
-            flex-wrap: wrap;
-        }
-
-        .creatina__img{
-            display: flex;
-            width: 90%;
-            height: 160px;
-            padding: 1rem;
-            margin-left: 20px;
-            flex-wrap: wrap;
-        }
-
-        .consumo__frutas{
-            position: relative;
-            background-image: url(../assets/frutas.jpg);
-            background-position: center;
-            background-size: cover;
-            margin: 30px 30px;
-            width: 300px;
-            color: black;
-            font-weight: bold;
-            border-radius: 5px;
-            padding: 5px 10px;
-            border: solid black;
-            font-family: 'Raleway';
-        }
+    align-items: center;
+   
+    &-1{
+        display: flex;
+        align-items:  center;
+    }
+    &_img{
+        padding: 15px;
+        border-radius: 20px;
+        display: flex;
+        
+    }
+       
         p{
             font-family: $fuente;
+            text-align: center;
       
             }
-
+            
 }
+
+.frase1{
+    font-weight:bold;
+    font-style: oblique;
+}
+
+.titulo_seccion{
+    display: flex;
+    justify-content: center;
+}
+
+.plan{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+
+.plan_personalizado, .plan_online, .plan_virtual{
+    text-align: center;
+    border: 1px;
+    border-style: solid;
+    border-color: #131B2E;
+    margin: 10px 0px;
+    width: 300px;
+    
+}
+
+
+.plan-img{
+    margin: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 180px;
+}
+
 .main_boton{
     display: flex;
     align-items: center;

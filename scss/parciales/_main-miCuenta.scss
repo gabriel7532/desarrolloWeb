@@ -1,0 +1,49 @@
+.titulo_cuenta{
+    text-align: center;
+    margin-top: 15px;
+}
+
+.mi_cuenta-foto{
+     border-radius: 50%;
+     width: 15rem;
+}
+
+.miCuenta_datosPersonales{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-content: center;
+    
+}
+
+.miCuenta_datos{
+    align-self: center;
+    width: 300px;
+}
+
+.miCuenta_caracteristicas-plan{
+    background-color: #131B2E;
+    color: white;
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.miCuenta_botones{
+    display: flex;
+    justify-content: center;
+    
+    &-espacio{
+        background-color:#131B2E;
+        color: white;
+        border-radius: 4px;
+        margin: 10px;
+        padding: 5px;
+
+    }
+}
+
+.miCuenta_calendario{
+    text-align: center;
+}
