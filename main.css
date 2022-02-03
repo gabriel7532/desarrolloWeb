@@ -543,6 +543,12 @@ main {
   border-radius: 5px;
 }
 
+@media screen and (max-width: 768px) {
+  .img_plan {
+    width: 300px;
+  }
+}
+
 .plan_button-align {
   text-align: center;
 }

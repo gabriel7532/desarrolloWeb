@@ -1,4 +1,4 @@
-
+@import "./media-queries";
 
 .personalizado_nosotros, .online_nosotros, .virtual_nosotros, .antropometria_nosotros{
     display: flex;
@@ -27,6 +27,9 @@
 .img_plan{
     width: 400px;
     border-radius: 5px;
+    @include tablet{
+        width: 300px;
+    }
 }
 
 .plan_button-align{
