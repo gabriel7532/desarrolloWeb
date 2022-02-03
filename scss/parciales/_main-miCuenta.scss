@@ -45,6 +45,13 @@
 
     }
 }
+.miCuenta_botones-espacio:hover{
+        @include desktop{
+            padding: 8px;
+            background-color: #133688;
+            font-size: 20px;
+        }
+}
 
 .miCuenta_calendario{
     text-align: center;

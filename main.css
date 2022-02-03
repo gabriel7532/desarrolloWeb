@@ -337,17 +337,27 @@ main {
 .plan_personalizado, .plan_online, .plan_virtual {
   text-align: center;
   border: 1px;
+  border-radius: 3px;
   border-style: solid;
   border-color: #131B2E;
   margin: 10px 0px;
   width: 300px;
 }
 
+@media screen and (min-width: 769px) {
+  .plan_personalizado:hover, .plan_online:hover, .plan_virtual:hover {
+    background-color: #131B2E;
+    color: white;
+    padding: 5px;
+  }
+}
+
 .plan-img {
-  margin: 20px;
-  border-radius: 5px;
-  width: 250px;
-  height: 180px;
+  margin-top: 5px;
+  padding: 10px;
+  border-radius: 10px;
+  width: 90%;
+  height: 200px;
 }
 
 .main_boton {
@@ -409,6 +419,14 @@ main {
 
 .main_boton__contacto {
   font-weight: lighter;
+}
+
+@media screen and (min-width: 769px) {
+  .main_boton__contacto:hover {
+    padding: 8px;
+    background-color: #133688;
+    font-size: 20px;
+  }
 }
 
 .main__nosotros {
@@ -504,6 +522,9 @@ main {
 .titulo_plan {
   text-align: center;
   margin-top: 30px;
+  background-color: #131B2E;
+  color: white;
+  padding: 5px 0px;
 }
 
 .parrafo_plan {
@@ -532,6 +553,14 @@ main {
   margin: 5px;
   padding: 2px;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 769px) {
+  .plan_button:hover {
+    padding: 8px;
+    background-color: #133688;
+    font-size: 20px;
+  }
 }
 
 .titulo_cuenta {
@@ -595,6 +624,14 @@ main {
   border-radius: 4px;
   margin: 10px;
   padding: 5px;
+}
+
+@media screen and (min-width: 769px) {
+  .miCuenta_botones-espacio:hover {
+    padding: 8px;
+    background-color: #133688;
+    font-size: 20px;
+  }
 }
 
 .miCuenta_calendario {
