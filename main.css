@@ -6,23 +6,7 @@
           box-sizing: border-box;
 }
 
-h2 {
-  font-family: 'Raleway';
-}
-
-h3 {
-  font-family: 'Raleway';
-}
-
-h4 {
-  font-family: 'Raleway';
-}
-
-h5 {
-  font-family: 'Raleway';
-}
-
-p {
+h2, h3, h4, h5, p {
   font-family: 'Raleway';
 }
 
@@ -98,6 +82,18 @@ header {
   font-weight: bold;
   font-size: 20px;
   color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .header_li_a {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header_logo {
+    width: 150px;
+  }
 }
 
 footer {
@@ -539,13 +535,13 @@ main {
 }
 
 .img_plan {
-  width: 400px;
+  width: 300px;
   border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 769px) {
   .img_plan {
-    width: 300px;
+    width: 400px;
   }
 }
 

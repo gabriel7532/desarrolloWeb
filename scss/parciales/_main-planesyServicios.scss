@@ -25,10 +25,10 @@
 }
 
 .img_plan{
-    width: 400px;
+    width: 300px;
     border-radius: 5px;
-    @include tablet{
-        width: 300px;
+    @include desktop{
+        width: 400px;
     }
 }
 
