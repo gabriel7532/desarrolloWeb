@@ -1,0 +1,41 @@
+[{ 
+"name": "Rutina aerobica",
+"contenido": {
+"ejercicio1": "Jumpings Jacks",
+"repeticiones1": 40,
+"ejercicio2": "Climbers",
+"repeticiones2": 50,
+"ejercicio3": "SquatJumps",
+"repeticiones3": 25,
+"ejercicio4": "Burpees",
+"repeticiones4": 15
+}
+},
+
+{
+    "name": "Rutina fuerza",
+    "contenido": {
+    "ejercicio1": "Squats con peso",
+    "repeticiones1": 12,
+    "ejercicio2": "Pull down",
+    "repeticiones2": 12,
+    "ejercicio3": "Plank",
+    "repeticiones3": 1 ,
+    "ejercicio4": "Bench Press",
+    "repeticiones4": 12
+    }
+    },
+
+    { 
+        "name": "Rutina HIIT",
+        "contenido": {
+        "ejercicio1": "Bench Press",
+        "repeticiones1": 15,
+        "ejercicio2": "Crunch abdominal",
+        "repeticiones2": 20,
+        "ejercicio3": "Pull down",
+        "repeticiones3": 10,
+        "ejercicio4": "run",
+        "repeticiones4": 10
+        }
+        }]

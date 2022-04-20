@@ -579,4 +579,51 @@ main {
 .miCuenta_calendario {
   text-align: center;
 }
+
+.main_formulario {
+  display: block;
+  text-align: center;
+}
+
+.main_formulario-titulo {
+  margin: 20px;
+}
+
+.main_formulario-div {
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.main_formulario-div-input {
+  border-radius: 4px;
+  background-color: #dde2e2;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-ms-input-placeholder {
+  text-align: center;
+}
+
+::-ms-input-placeholder {
+  text-align: center;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+.btn_registro {
+  color: white;
+  background-color: #131B2E;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.datosRegistro {
+  text-align: center;
+  margin: 10px;
+}
 /*# sourceMappingURL=main.css.map */

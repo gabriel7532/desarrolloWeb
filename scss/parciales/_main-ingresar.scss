@@ -1,0 +1,32 @@
+.main_formulario{
+    display: block;
+    text-align: center;
+    
+    &-titulo{
+        margin: 20px;
+    }
+    &-div{
+        margin: 10px;
+        border-radius: 5px;
+        &-input{
+            border-radius: 4px;
+            background-color: #dde2e2;
+        }
+    }
+}
+
+::placeholder{
+    text-align: center;
+}
+
+.btn_registro{
+    color: white;
+    background-color: #131B2E;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.datosRegistro{
+    text-align: center;
+    margin: 10px;
+}
