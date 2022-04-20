@@ -48,6 +48,15 @@ header{
         font-weight: bold;
         font-size: 20px;
         color: black; 
+        @include tablet{
+            font-size: 15px;
+        }
+        }
+    }
+
+    &_logo{
+        @include tablet{
+            width: 150px;
         }
     }
 

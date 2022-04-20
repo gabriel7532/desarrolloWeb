@@ -1,3 +1,5 @@
+@import "./media-queries";
+
 .titulo_cuenta{
     text-align: center;
     margin-top: 15px;
@@ -13,7 +15,7 @@
     justify-content: space-evenly;
     text-align: center;
     align-content: center;
-    
+    flex-wrap: wrap;
 }
 
 .miCuenta_datos{
@@ -27,6 +29,8 @@
     padding: 10px 0px;
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
     
 }
 
@@ -43,7 +47,19 @@
 
     }
 }
+.miCuenta_botones-espacio:hover{
+        @include desktop{
+            padding: 8px;
+            background-color: #133688;
+            font-size: 20px;
+        }
+}
 
 .miCuenta_calendario{
     text-align: center;
+    &-img{        
+        @include tablet{
+            width: 90%;
+        }
+    }
 }

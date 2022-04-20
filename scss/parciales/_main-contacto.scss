@@ -30,3 +30,11 @@
     @extend .main_boton__inscribete;
     font-weight: lighter;
 }
+
+.main_boton__contacto:hover{
+    @include desktop{
+        padding: 8px;
+        background-color: #133688;
+        font-size: 20px;
+}
+}
